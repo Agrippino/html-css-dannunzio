@@ -1,5 +1,5 @@
 /* inserimento sfondo*/
-.container { background-color: #D5D6BE   }
+#container { background-color: #D5D6BE   }
 
 /* inserimento sfondo div poesie*/
 div#poesie { background-color: #ffffff  }
@@ -11,9 +11,9 @@ div#h1 {font-style: "CenturyGothic" ;}
 /* inserimento sfondo  hr*/
 hr.line1 {border-style: solid;}
 hr.line1 {border-color: #870303;}
-hr.line1 {border-width: 5px;}
+hr.line1 {border-width: 4px;}
 
-/* inserimento font h2/
+/* inserimento font h2*/
 h2 {font-style: "CenturyGothic" ; }
 h2 { font-size: 10pt;  }
 
@@ -33,8 +33,7 @@ b.SHEOA { text-indent: 15px; margin-left: 10px;}
 #fonte { font-size: 8pt;  }
 
 /*applicazione bordi*/
-#container {border: 1px solid transparent; width: 500px;
-    padding: 25px;margin-left: 800px;}
-#versi {border: 1px solid transparent;}
+#container {border: 1px solid transparent;width: 500px; margin-left: 800px; margin-top: 20px; margin-bottom: 20px; }
+#poesie {border: 1px solid transparent;width: 500px; margin-left: 400px; margin-top: 20px; margin-bottom: 20px; }
 #versi {border: 1px solid black;}
-#fonte {border: 1px solid black;}
+#fonte {border: 1px solid black;margin-top: 10px}
