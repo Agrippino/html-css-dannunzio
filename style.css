@@ -1,12 +1,12 @@
 /* inserimento sfondo*/
 
-#container { background-color: #D5D6BE   }
+#container { background-color: #D5D6BE; background-image: url(foto.gif) ; background-repeat: no-repeat; background-position: left; background-position-x: 300px; }
 
 /* inserimento sfondo div poesie*/
 #poesie { background-color: #ffffff  }
 
 /* inserimento sfondo h1*/
-h1 {font-style: "CenturyGothic" ;}
+h1 {font-family: 'CenturyGothic' ;}
 
 /* inserimento sfondo  hr*/
 hr.line1 {border-style: solid;}
@@ -14,23 +14,24 @@ hr.line1 {border-color: #870303;}
 hr.line1 {border-width: 4px;}
 
 /* inserimento font h2*/
-h2 {font-style: "CenturyGothic" ; }
+h2 {font-family: 'CenturyGothic' ; }
 h2 { font-size: 10pt;  }
 
 /* inserimento font p*/
-p { font-style: "Tahoma"; }
+p { font-family: Tahoma; }
 p { font-size: 10pt;  }
 p { text-align: left; }
 
 /* inserimento font SHEOA*/
-b.SHEOA { font-style: "CenturyGothic"; }
+b.SHEOA { font-family: 'CenturyGothic'; }
 b.SHEOA { font-size: 18pt;  }
 b.SHEOA { text-indent: 15px; margin-left: 10px;}
 
 /* inserimento font  div fonte*/
-#fonte { font-style: "italic"; }
-#fonte { text-align: right; }
-#fonte { font-size: 8pt;  }
+.pfont { font-family: 'italic'; }
+.pfont { font-style: oblique; }
+.pfont { text-align: right }
+.pfont { font-size: 8pt;  }
 
 /*applicazione bordi*/
 #container {border: 2px solid black; padding: 10px; }
